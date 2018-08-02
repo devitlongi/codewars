@@ -1,5 +1,8 @@
 package sk.longi.exam.codeWars.findMostSimilar;
 
+/**
+ * https://www.codewars.com/kata/did-you-mean-dot-dot-dot/train/java
+ */
 
 import java.lang.reflect.Array;
 import java.util.Arrays;
