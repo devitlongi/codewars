@@ -8,10 +8,7 @@ public class detMatrix {
     static long a=0;
 
     static public long determinant(int[][] matrix) {
-//        for (int g =0;g<matrix.length;g++){
-//            System.out.print(Arrays.toString(matrix[g]).replace('[','{').replace(']','}')+",");
-//        }
-//        System.out.println();
+        System.out.println();
         if(matrix[0].length == 1) return matrix[0][0];
         if (matrix[0].length == 2) return (matrix[0][0] * matrix[1][1] - matrix[0][1] * matrix[1][0]);
         int[][] met = new int[matrix[0].length - 1][matrix[0].length - 1];
